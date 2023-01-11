@@ -20,7 +20,7 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
-- [📝 License](#license)
+
 
 # 📖 [Protofilio] <a name="about-project"></a>
 **[Protofilio]** everything you want to know about me!
@@ -84,8 +84,4 @@ I would like to thank microverse for giving me this oppurtunity
 
 ## ❓ FAQ <a name="faq"></a>
 
-## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
