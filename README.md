@@ -32,7 +32,7 @@ Go to https://github.com/ritikarawat220/My-Portfolio.git
 👤 **Ritika Rawat**
 
 - GitHub: [@ritikarawat220](https://github.com/ritikarawat220)
-- LinkedIn: [Ritikarawat](www.linkedin.com/in/rawatritika)
+- LinkedIn: [Linkedin](www.linkedin.com/in/rawatritika)
 
 ## 🤝 Contributing
 
