@@ -47,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - My supportive family 😊
-* my friends
+
 
 ## 📝 License
 
