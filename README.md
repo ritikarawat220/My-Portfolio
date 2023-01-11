@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/MishDM/Myportfolio)
+[Live Demo Link](https://github.com/ritikarawat220/My-Portfolio.git)
 
 
 ## Getting Started
@@ -25,11 +25,11 @@ Modern web browser.
 
 ### Setup
 
-Go to https://github.com/MishDM/Myportfolio
+Go to https://github.com/ritikarawat220/My-Portfolio.git
 
 ## Authors
 
-👤 **Misikir Delelew**
+👤 **Ritika Rawat**
 
 - GitHub: [@ritikarawat220](https://github.com/ritikarawat220)
 - LinkedIn: [Ritikarawat](www.linkedin.com/in/rawatritika)
