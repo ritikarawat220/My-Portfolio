@@ -1,26 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    
-    <title>Portfolio Setup and Mobile First</title>
-  </head>
-  <body>
-    <!-----------------HEAD SECTION---------------------------->
-    <section class="head-section">
-      <header class="header">
-       <nav class="nav-menu">
-          <a href="#">
-            <img src="./images/Logo Placeholder.svg" alt="logo alternative text" />
-          </a>
-          
-          <div class="navigation-menu">
-              <ul class="menu-desktop" href="#">
-                <li><a href="#my-works">Portfolio</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#contact-me">Contact</a></li>
-              </ul>
-              <img src="./images/Union.svg" alt="menu-icon" class="menu hamburger-menu"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <title>Portfolio</title>
+  
+</head>
+
+<body>
+  
+
+  <header>
+    <appbar class="appbar">
+        
+        <nav class="appbar  navbar navbar-light fixed-top">
+          <div class="container-fluid">
+            <div class="nav-container">
+            <a class="navbar-brand" href="#">My Logo</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Contact</a>
+                  </li>
+                                 
+                </ul>
+            
+              </div>
+            </div>
           </div>
+        </nav>
+    </appbar>
+</header>
+
+
+<section class="mobilemain">
+ <article class="headline">
+   <h1 id="heading">I’m Ritika<br>
+     Glad to see<br>you!</h1>
+   
+   <p id="paragraph1">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+   
+   <h5 id="heading5">LET’S CONNECT</h5>
+   
+   <ul class="topicons">
+    <li class="icon"><a href="www.linkedin.com/in/rawatritika" target="_blank"><img src="statics/images/Linkedin_icon.png" alt="linked link"></a></li>    
+    <li class="icon"><a href="https://github.com/ritikarawat220" target="_blank"><img src="statics/images/github.png" alt="github link"></a></li>
+    <li class="icon"><a href="https://angel.co/u/ritika-rawat-6" target="_blank"><img src="statics/images/doits.png" alt="Angel list link"></a></li>   
+   </ul>
+   
+ </article>
+  
+
+ <!--<section class="background-images">-->
+   <ul>
+      
+     <li><img class="rectangle4" src="sources/Rectangle 4.png"></li>
+ 
+     <li><img class="ellipse3" src="sources/Ellipse 3.png" alt=""></li>
+     
+     <li><img class="ellipse15" src="sources/Ellipse 15.png" alt=""></li>
+     
+     <li><img class="ellipse14" src="sources/Ellipse 14.png" alt=""></li>
+     
+     <li><img class="ellipse8" src="sources/Ellipse 8.png" alt=""></li>
+     
+     <li><img class="ellipse11" src="sources/Ellipse 11.png" alt=""></li>
+     
+     <li><img class="rectangle6" src="sources/Rectangle 6.png" alt=""></li>
+     
+      
+     <li><img class="ellipse12" src="sources/Ellipse 12.png" alt=""></li>
+     
+     <li><img class="ellipse13" src="sources/Ellipse 13.png" alt=""></li>
+     
+     <li><img class="ellipse4" src="sources/Ellipse 4.png" alt=""></li>
+ 
+     <li><img class="rectangle5" src="sources/Rectangle 5.png" alt=""></li>
+     
+     <li><img class="ellipse5" src="sources/Ellipse 5.png" ></li>
+     
+     <li><img class="rectangle7" src="sources/Rectangle 7.png" alt=""></li>
+   </ul>
+ 
+  </section>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
