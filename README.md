@@ -1,54 +1,91 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+<a name="readme-top"></a>
+<div align="center">
 
-> This is my portifolio page.
-
-
-## Built With
-
-- HTML
-- CSS
-
-## Live Demo
-
-[Live Demo Link](https://github.com/ritikarawat220/My-Portfolio.git)
+  <img src="images\images.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
 
-## Getting Started
+</div>
 
-To get a local copy up and running follow these simple example steps.
+# 📗 Table of Contents
 
-### Prerequisites
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Modern web browser.
+# 📖 [Protofilio] <a name="about-project"></a>
+**[Protofilio]** everything you want to know about me!
 
-### Setup
 
-Go to https://github.com/ritikarawat220/My-Portfolio.git
+## 🛠 Built With <a name="built-with"></a>
+### Key Features <a name="key-features"></a>
+- **used linters**
+- **mobile version**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Authors
+## 🚀 Live Demo <a name="live-demo"></a>
+you can see my profile through this link:
+https://github.com/ritikarawat220/My-Portfolio.git
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+you can know me from here...
+
+
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Ritika Rawat**
 
-- GitHub: [@ritikarawat220](https://github.com/ritikarawat220)
-- LinkedIn: [Linkedin](www.linkedin.com/in/rawatritika)
+- GitHub: [ritikarawat220](https://github.com/ritikarawat220)
+- Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/rawatritika)
 
-## 🤝 Contributing
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Improve page elements**
+- [ ] **will improve styles and add more pages**
+- [ ] **will add Java script**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project give me star!
 
-- Microverse
-- My supportive family 😊
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## 📝 License
+I would like to thank microverse for giving me this oppurtunity
 
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
