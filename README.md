@@ -34,7 +34,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 you can see my profile through this link:
-https://github.com/Sonikak004/my-portfolio/tree/home-page
+https://github.com/ritikarawat220/My-Portfolio.git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
