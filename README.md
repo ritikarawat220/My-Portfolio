@@ -40,7 +40,7 @@ you can know me from here...
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ritika Rawat**
+👤 **Ritika rawat**
 
 - GitHub: [ritikarawat220](https://github.com/ritikarawat220)
 - Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
