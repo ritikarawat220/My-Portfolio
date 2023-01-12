@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <img src="images\images.png" alt="logo" width="140"  height="auto" />
+  <img src="images.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 
