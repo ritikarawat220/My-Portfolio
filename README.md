@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 <h1>Portfolio</h1>
@@ -15,7 +14,7 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
-
+- [📝 License](#license)
 
 # 📖 [Protofilio] <a name="about-project"></a>
 **[Protofilio]** everything you want to know about me!
@@ -45,7 +44,8 @@ you can know me from here...
 
 - GitHub: [ritikarawat220](https://github.com/ritikarawat220)
 - Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/rawatritika)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rawatritika/)
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>
