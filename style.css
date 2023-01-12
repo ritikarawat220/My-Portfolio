@@ -20,7 +20,8 @@ header {
   position: fixed;
   background-color: #fff;
   top: 0;
-  width: 100%;
+  width: 375px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,14 +32,24 @@ header a {
   margin-left: 24px;
   color: #6070ff;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 76px;
+  height: 20px;
   font-size: 18px;
   line-height: 20px;
 }
 
 .fa-bars {
-  margin-top: 58px;
-  margin-right: 24px;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 8px;
+  margin-left: 180px;
   color: #6070ff;
 }
 
@@ -49,9 +60,16 @@ section {
 .section-title {
   color: #172b4d;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  width: 327px;
+  height: 150px;
   font-size: 40px;
-  line-height: 52px;
+}
+p {
+  width: 327px;
+  height: 146px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 section p {
@@ -70,5 +88,5 @@ section .main-text {
 section ul {
   margin-top: 12px;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
