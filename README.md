@@ -1,12 +1,7 @@
 
 <a name="readme-top"></a>
-<div align="center">
 
-  <img src="images.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-
-</div>
+<h1>Portfolio</h1>
 
 # 📗 Table of Contents
 
@@ -86,6 +81,6 @@ I would like to thank microverse for giving me this oppurtunity
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
