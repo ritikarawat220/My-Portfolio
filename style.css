@@ -101,13 +101,14 @@ ul {
 }
 
 .social-media-links {
+  margin-top: 17px;
   display: flex;
   gap: 20px;
   text-decoration: none;
 }
 
 .works {
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
@@ -216,6 +217,7 @@ ul {
   color: #396df2;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  margin-top: 19px;
 }
 
 .btn-default:hover {
@@ -272,53 +274,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 12px;
-}
-
-.contact-me {
-  background-color: #6070ff;
-  background-image: url("./contac-shape-bg.svg");
-  background-repeat: no-repeat;
-  background-position: 160px 40px;
-  border-top-left-radius: 60px;
-}
-
-.contact-me h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #fff;
-}
-
-.contact-me p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-}
-
-.contact-form {
-  margin-top: 30px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  margin: 5px auto;
-  padding: 15px 16px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  outline: none;
-  border: none;
-  background: #fff;
-  border-radius: 8px;
-}
-
-.contact-form textarea {
-  resize: none;
+  padding: 22px 12px;
 }
 
 .btn-submit {
