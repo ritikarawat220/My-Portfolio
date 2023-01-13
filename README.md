@@ -1,12 +1,6 @@
-
 <a name="readme-top"></a>
-<div align="center">
 
-  <img src="images\images.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-
-</div>
+<h1>Portfolio</h1>
 
 # 📗 Table of Contents
 
@@ -46,11 +40,12 @@ you can know me from here...
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ritika Rawat**
+👤 **Ritika rawat**
 
 - GitHub: [ritikarawat220](https://github.com/ritikarawat220)
 - Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/rawatritika)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rawatritika/)
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -78,7 +73,7 @@ If you like this project give me star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for giving me this oppurtunity
+I would like to thank microverse for giving me this oppurtunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,6 +81,6 @@ I would like to thank microverse for giving me this oppurtunity
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
