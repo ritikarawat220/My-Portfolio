@@ -1,93 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-main {
-  background-image: url("header-shapes.png");
-  background-repeat: no-repeat;
+.wrapper {
+  width: 375px;
 }
 
 header {
-  position: fixed;
-  background-color: #fff;
-  top: 0;
-  width: 375px;
-  height: 90px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  height: 48px;
 }
 
-header a {
-  margin-top: 58px;
-  margin-left: 24px;
-  color: #6070ff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+.logo {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  width: 76px;
-  height: 20px;
+  padding: 10px 12px;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-}
-
-.fa-bars {
-  width: 24px;
-  height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  top: 8px;
-  margin-left: 180px;
   color: #6070ff;
 }
 
-section {
-  margin: 128px 24px 136px 24px;
+nav {
+  padding: 8px;
 }
 
-.section-title {
-  color: #172b4d;
-  font-family: "Poppins", sans-serif;
-  width: 327px;
-  height: 150px;
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.headline {
+  background-image: url("header-shapes-mobile.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+}
+
+.title {
+  font-weight: 700;
   font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
 
-p {
-  width: 327px;
-  height: 146px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-section p {
-  margin-top: 12px;
-  color: #344563;
-  font-family: "Poppins", sans-serif;
+.details {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #344563;
 }
 
-section .main-text {
+.contact-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   color: #7f8cff;
-  margin-top: 12px;
 }
 
-section ul {
-  margin-top: 12px;
+.social-media {
+  text-decoration: none;
+  list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 20px;
 }
