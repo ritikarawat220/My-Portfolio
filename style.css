@@ -1,24 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
+
 .wrapper {
   width: 375px;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 48px;
 }
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -27,22 +32,26 @@ header {
   margin-left: 12px;
   margin-top: 4px;
 }
+
 .logo a {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070FF;
+  color: #6070ff;
 }
+
 nav {
   padding: 8px;
 }
+
 .menu-icon {
   width: 24px;
   height: 24px;
   margin-right: 12px;
   cursor: pointer;
 }
+
 .headline {
   background-image: url("./images/header-shapes-mobile.png");
   display: flex;
@@ -51,24 +60,28 @@ nav {
   padding: 114px 24px;
   gap: 12px;
 }
+
 .title {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
+
 .details {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
 }
+
 .contact-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
+
 .social-media {
   text-decoration: none;
   list-style: none;
