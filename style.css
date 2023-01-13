@@ -15,6 +15,7 @@ body {
 
 .wrapper {
   width: 375px;
+  background: #f7f7f9;
 }
 
 header {
@@ -22,6 +23,10 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .logo {
@@ -52,6 +57,17 @@ nav {
   cursor: pointer;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 114px 24px;
+  gap: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
 .headline {
   background-image: url("./images/header-shapes-mobile.png");
   display: flex;
@@ -59,6 +75,7 @@ nav {
   align-items: flex-start;
   padding: 114px 24px;
   gap: 12px;
+  border-bottom-left-radius: 60px;
 }
 
 .title {
@@ -73,6 +90,214 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media-links {
+  margin-top: 17px;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.works {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 88px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.project-info,
+.project-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.header-details {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+}
+
+.header-details .client {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #172b4d;
+}
+
+.header-details .role,
+.header-details .year {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.seprator-circle {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 50%;
+}
+
+.project-details {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.tags .tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.action {
+  padding: 12px 0;
+}
+
+.btn-default {
+  width: fit-content;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  display: flex;
+  font-family: inherit;
+  font-style: normal;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: transparent;
+  color: #396df2;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 19px;
+}
+
+.btn-default:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.about {
+  border-top-right-radius: 60px;
+}
+
+.skill-list {
+  padding: 12px;
+}
+
+.skill-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px auto;
+}
+
+.btn-chev {
+  border: none;
+  outline: none;
+  padding: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.language-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.separator-line {
+  height: 1px;
+  background: #dfe1e6;
+}
+
+.skill-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 12px;
+}
+
+.btn-submit {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  font-style: normal;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #6070ff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .contact-title {
@@ -90,3 +315,12 @@ nav {
   position: absolute;
   margin-top: 308px;
 }
+
+/* .social-media-bottom {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  margin-top: 308px;
+} */
