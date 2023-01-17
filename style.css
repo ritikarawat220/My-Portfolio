@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #e5e5e5;
   font-family: "Poppins", sans-serif;
 }
 
@@ -69,12 +70,7 @@ ul {
 }
 
 .headline {
-  background-image: url("./images/header-shapes-mobile.png");
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 114px 24px;
-  gap: 12px;
+  background-image: url("images/header-shapes-mobile.png");
   border-bottom-left-radius: 60px;
 }
 
@@ -100,15 +96,20 @@ ul {
   color: #7f8cff;
 }
 
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .social-media-links {
-  margin-top: 17px;
   display: flex;
   gap: 20px;
   text-decoration: none;
 }
 
 .works {
-  display: grid;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
@@ -208,7 +209,6 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  display: flex;
   font-family: inherit;
   font-style: normal;
   border: 1px solid #6070ff;
@@ -217,7 +217,6 @@ ul {
   color: #396df2;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  margin-top: 19px;
 }
 
 .btn-default:hover {
@@ -274,7 +273,53 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 22px 12px;
+  padding: 18px 12px;
+}
+
+.contact-me {
+  background-color: #6070ff;
+  background-image: url("./portfolio/contac-shape-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 160px 40px;
+  border-top-left-radius: 60px;
+}
+
+.contact-me h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-me p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin: 5px auto;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.contact-form textarea {
+  resize: none;
 }
 
 .btn-submit {
@@ -298,78 +343,4 @@ ul {
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
-}
-
-.contact-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-.social-media {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  position: absolute;
-  margin-top: 308px;
-}
-
-/* .social-media-bottom {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  position: absolute;
-  margin-top: 308px;
-} */
-
-.contact-me {
-  background-image: url("./portfolio/contac-shape-bg.svg");
-  background-color: #6070ff;
-  background-repeat: no-repeat;
-  background-position: 160px 40px;
-  border-top-left-radius: 60px;
-}
-
-.contact-me h2 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-  text-align: center;
-}
-
-.contact-me p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-}
-
-.contact-form {
-  margin-top: 30px;
-}
-
-.contact-form textarea {
-  resize: none;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  margin: 5px auto;
-  padding: 15px 16px;
-  border-radius: 8px;
-  font-size: 17px;
-  line-height: 20px;
-  font-weight: 400;
-  border: none;
-  outline: none;
-  background: #fff;
 }
