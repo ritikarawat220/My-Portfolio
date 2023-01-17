@@ -26,7 +26,7 @@ header {
 }
 
 .bg-white {
-  background: #FFFFFF;
+  background-color: #fff;
 }
 
 .logo {
@@ -121,7 +121,6 @@ ul {
   padding: 16px;
   gap: 12px;
   border: 1px solid #dfe1e6;
-  background: #f7f7f9; 
   border-radius: 16px;
 }
 
