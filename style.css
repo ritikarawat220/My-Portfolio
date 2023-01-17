@@ -10,7 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #e5e5e5;
   font-family: "Poppins", sans-serif;
 }
 
@@ -27,7 +26,7 @@ header {
 }
 
 .bg-white {
-  background-color: #fff;
+  background: #FFFFFF;
 }
 
 .logo {
@@ -70,7 +69,12 @@ ul {
 }
 
 .headline {
-  background-image: url("images/header-shapes-mobile.png");
+  background-image: url("./images/header-shapes-mobile.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
   border-bottom-left-radius: 60px;
 }
 
@@ -96,20 +100,15 @@ ul {
   color: #7f8cff;
 }
 
-.social-media {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .social-media-links {
+  margin-top: 17px;
   display: flex;
   gap: 20px;
   text-decoration: none;
 }
 
 .works {
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
@@ -122,6 +121,7 @@ ul {
   padding: 16px;
   gap: 12px;
   border: 1px solid #dfe1e6;
+  background: #f7f7f9; 
   border-radius: 16px;
 }
 
@@ -209,6 +209,7 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
   font-family: inherit;
   font-style: normal;
   border: 1px solid #6070ff;
@@ -217,6 +218,7 @@ ul {
   color: #396df2;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  margin-top: 19px;
 }
 
 .btn-default:hover {
@@ -273,12 +275,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 12px;
+  padding: 22px 12px;
 }
 
 .contact-me {
   background-color: #6070ff;
-  background-image: url("./portfolio/contac-shape-bg.svg");
+  background-image: url("portfolio/contac-shape-bg.svg");
   background-repeat: no-repeat;
   background-position: 160px 40px;
   border-top-left-radius: 60px;
@@ -307,7 +309,7 @@ ul {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  margin: 7px auto;
+  margin: 5px auto;
   padding: 15px 16px;
   font-weight: 400;
   font-size: 17px;
@@ -344,3 +346,28 @@ ul {
   color: #fff;
   border: 1px solid #fff;
 }
+
+.contact-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  margin-top: 308px;
+}
+
+/* .social-media-bottom {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  margin-top: 308px;
+} */
