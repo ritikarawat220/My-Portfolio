@@ -324,36 +324,52 @@ ul {
   position: absolute;
   margin-top: 308px;
 } */
+
 .contact-me {
-  background-image: url('./contact-me.svg');
-  background-color: #6070FF;
-  background-repeat: no-repeat; 
+  background-image: url("./images/Contact\ mecontactme.svg");
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-position: 160px 40px;
+  border-top-left-radius: 60px;
 }
+
 .contact-me h2 {
-  font-family: 'Poppins' serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
+  text-align: center;
 }
+
 .contact-me p {
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
+
 .contact-form {
   margin-top: 30px;
 }
+
+.contact-form textarea {
+  resize: none;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+  margin: 5px auto;
+  padding: 15px 16px;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: #fff;
 }
-
-
-
-
