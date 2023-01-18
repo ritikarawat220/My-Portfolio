@@ -121,6 +121,7 @@ ul {
   padding: 16px;
   gap: 12px;
   border: 1px solid #dfe1e6;
+  background-color: #f7f7f9;
   border-radius: 16px;
 }
 
@@ -275,6 +276,61 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 22px 12px;
+}
+
+.contact-section {
+  background-color: #fff;
+}
+
+.contact-me {
+  background-image: url("portfolio/contac-shape-bg.svg");
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-position: 160px 40px;
+  border-top-left-radius: 60px;
+}
+
+.contact-me h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-me p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin: 5px auto;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.contact-form textarea {
+  resize: none;
 }
 
 .btn-submit {
