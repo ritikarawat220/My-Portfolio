@@ -45,8 +45,9 @@ nav {
 ul {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 35px;
   list-style: none;
+  margin-right: 686px;
 }
 
 .headline {
@@ -96,8 +97,9 @@ h1 {
   font-size: 18px;
   line-height: 24px;
   color: #7f8cff;
-  margin-top: 20px;
+  margin-top: 7px;
   margin-bottom: 20px;
+  margin-right: 797px;
 }
 
 .project_section {
@@ -502,13 +504,21 @@ form {
     padding: 30px 43px;
   }
 
+  a.links {
+    color: #344563;
+  }
+
+  a {
+    color: #344563;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    gap: 850px;
+    gap: 845px;
   }
 
   .Tonic,
@@ -529,12 +539,16 @@ form {
     border-bottom: 1px solid #dfe1e6;
   }
 
-  .Nature,
-  .Professional,
-  .Explore,
+  .Professional {
+    width: 587px;
+    margin-inline-start: -540px;
+    height: 458px;
+  }
+
   .Availability {
-    width: 700px;
-    height: 448px;
+    width: 600px;
+    margin-inline-start: -510px;
+    height: 458px;
   }
 
   .flex_list {
@@ -544,8 +558,8 @@ form {
   }
 
   .project_description {
-    width: 100%;
-    height: fit-content;
+    width: 490px;
+    height: 70px;
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 16px;
