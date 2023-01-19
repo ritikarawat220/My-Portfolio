@@ -74,6 +74,7 @@ ul {
 h1 {
   width: 920px;
   height: 122px;
+  color: #091E42;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -84,6 +85,7 @@ h1 {
 .details {
   width: 920px;
   height: 98px;
+  color: #344563;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -99,7 +101,7 @@ h1 {
   color: #7f8cff;
   margin-top: 7px;
   margin-bottom: 20px;
-  margin-right: 797px;
+  margin-right: 807px;
 }
 
 .project_section {
@@ -173,6 +175,8 @@ h1 {
   h1 {
     width: 300px;
     height: 122px;
+    color: #091E42;
+    margin: 40px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -187,6 +191,7 @@ h1 {
     height: 98px;
     font-style: normal;
     font-weight: lighter;
+    color: #344563;
     font-size: 14px;
     line-height: 20px;
     overflow-wrap: break-word;
@@ -210,7 +215,7 @@ h1 {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100%; 
   }
 
   .menu-icons {
@@ -569,7 +574,7 @@ form {
   .About_Section {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 110%;
     justify-content: space-around;
     padding: 100px 120px;
   }
@@ -602,10 +607,10 @@ form {
   .container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 20px;
     width: 122px;
-    height: 120px;
+    height: 140px;
   }
 
   .about_section_lists {
@@ -677,4 +682,8 @@ form {
     width: 518px;
     align-self: center;
   }
+}
+
+.contact-section {
+  background-color: #fff;
 }
