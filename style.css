@@ -7,28 +7,15 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  background-color: #f7f7f7;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  justify-content: space-between;
-  background-color: white;
-  padding: 10px 20px;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  list-style: none;
+  width: 375px;
+  background: #f7f7f9;
 }
 
 header {
@@ -42,30 +29,21 @@ header {
   background-color: #fff;
 }
 
-/* .logo {
+.logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
   margin-left: 12px;
   margin-top: 4px;
-} */
+}
 
 .logo a {
-  font-style: normal;
-  list-style: none;
-  width: 100%;
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
-  display: inline-block;
-}
-
-a {
-  text-decoration: inherit;
-  color: inherit;
-  cursor: auto;
 }
 
 nav {
@@ -86,19 +64,18 @@ section {
   gap: 12px;
 }
 
-/* ul {
+ul {
   list-style: none;
-} */
+}
 
 .headline {
-  background-image: url("./DesKtop-IM/Header\ bg@2x.png");
-  width: 100vw;
-  height: 100vh;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 20px;
-  border-bottom-left-radius: 10%;
+  background-image: url("./images/header-shapes-mobile.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  border-bottom-left-radius: 60px;
 }
 
 .title {
