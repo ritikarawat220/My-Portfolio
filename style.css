@@ -491,8 +491,8 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid grey;
-    border-radius: 12px;
+    border: 1px solid gray;
+    border-radius: 24px;
     padding: 15px 35px;
     background-color: #fff;
     gap: 50px;
@@ -521,15 +521,26 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 140%;
     justify-content: space-between;
-    gap: 845px;
   }
 
   .Tonic,
   .Tonic_project,
   .Multi_project {
     display: none;
+  }
+
+  .Professional {
+    width: 460px;
+    height: 448px;
+    margin-inline: -553px;
+  }
+
+  .Availability {
+    width: 460px;
+    height: 448px;
+    margin-inline: -530px;
   }
 
   .dropdown {
@@ -544,17 +555,20 @@ form {
     border-bottom: 1px solid #dfe1e6;
   }
 
-  .Professional {
-    width: 587px;
-    margin-inline-start: -540px;
-    height: 458px;
+  /* .Professional {
+    position: absolute;
+    width: 544px;
+    left: 590px;
+    
+    height: 448px;
+    border-radius: 8px;
   }
 
   .Availability {
     width: 600px;
     margin-inline-start: -510px;
     height: 458px;
-  }
+  } */
 
   .flex_list {
     display: flex;
@@ -563,8 +577,8 @@ form {
   }
 
   .project_description {
-    width: 490px;
-    height: 70px;
+    width: 335px;
+    height: 118px;
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 16px;
