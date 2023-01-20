@@ -105,10 +105,11 @@ h1 {
 }
 
 .project_section {
-  padding: 0 16px;
+  background-color: rgb(229, 229, 229);
+  justify-content: center;
+  padding: 0 24px;
   display: grid;
   grid-template-rows: auto;
-  justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -118,6 +119,13 @@ h1 {
     box-sizing: border-box;
     overflow-y: none;
     background-color: #f7f7f9;
+  }
+
+  .project_section {
+    padding: 0 16px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
   }
 
   .title {
@@ -132,28 +140,31 @@ h1 {
   }
 
   .project_description {
-    width: 200px;
+    width: 285px;
     height: fit-content;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 24px;
+    color: #344563;
   }
 
-  .first_project,
+  /* .first_project,
   .second_project,
   .third_project,
   .fourth_project {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    border: 2px solid grey;
-    border-radius: 12px;
-    padding: 15px 15px;
-    background-color: #fff;
-    width: fit-content;
-    justify-content: space-between;
-  }
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin: 0px auto 3rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(223, 225, 230);
+    border-image: initial;
+  } */
 
   .Tonic {
     width: 295px;
@@ -483,30 +494,33 @@ form {
   border-color: #5e6c84;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .first_project,
   .second_project,
   .third_project,
   .fourth_project {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 24px;
-    padding: 15px 35px;
-    background-color: #fff;
-    gap: 50px;
-    margin-bottom: 20px;
+    gap: 24px;
+    background: #fff;
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
   }
 
   .hamburger-menu {
     display: none;
   }
 
+  div.menu-icons {
+    width: 30%;
+  }
+
   .wrapper {
     width: 100%;
     background-color: white;
-    padding: 30px 43px;
+    padding: 30px 16px;
   }
 
   a.links {
@@ -519,10 +533,10 @@ form {
 
   nav {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 140%;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
   }
 
   .Tonic,
@@ -532,15 +546,24 @@ form {
   }
 
   .Professional {
-    width: 460px;
+    width: 530px;
     height: 448px;
+    overflow-clip-margin: content-box;
     margin-inline: -553px;
   }
 
   .Availability {
-    width: 460px;
+    width: 540px;
     height: 448px;
+    overflow-clip-margin: content-box;
     margin-inline: -530px;
+  }
+
+  .Availability_image {
+    width: 90%;
+    height: auto;
+    margin: 1px auto;
+    padding: 1rem;
   }
 
   .dropdown {
@@ -559,7 +582,6 @@ form {
     position: absolute;
     width: 544px;
     left: 590px;
-    
     height: 448px;
     border-radius: 8px;
   }
@@ -569,7 +591,6 @@ form {
     margin-inline-start: -510px;
     height: 458px;
   } */
-
   .flex_list {
     display: flex;
     flex-direction: column;
@@ -577,8 +598,8 @@ form {
   }
 
   .project_description {
-    width: 335px;
-    height: 118px;
+    width: 430px;
+    height: 80px;
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 16px;
@@ -667,11 +688,17 @@ form {
     border-bottom-left-radius: 10%;
   }
 
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+
   .project_section {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 100%;
     padding: 0 100px;
+    gap: 80px;
     margin-bottom: 100px;
   }
 
@@ -700,4 +727,10 @@ form {
 
 .contact-section {
   background-color: #fff;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
