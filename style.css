@@ -81,6 +81,14 @@ header h3 a {
 
 .menu-items {
   display: none;
+  animation-name: menu_load;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+@keyframes menu_load {
+   0% {
+    transform: translate(200px);
+   }
 }
 
 .introduction {
