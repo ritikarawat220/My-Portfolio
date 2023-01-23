@@ -1,295 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="logo">
-          <a href="#">My Logo</a>
+<body id="home" class="all-containers">
+    <!-- header -->
+    <header class="wrapper">
+      <!-- logo -->
+      <h3>
+        <a href="#">My logo</a>
+      </h3>
+    <!-- navigation -->
+      <nav>
+        <div>
+          <i class="menu-icon fas fa-bars"></i>
         </div>
-        <nav>
-          <div class="menu-icon">
-            <img src="./images/Union.png"  alt="menu button" />
-          </div>
-        </nav>
-      </header>
-      <main>
-        <section class="headline">
-          <h2 class="title">I'm Ritika Glad to see you!</h2>
-          <p class="details">
-            I'm a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don't hestiate to
-            contact me.
-          </p>
-          <h2 class="contact-title">LET'S CONNECT</h2>
-          <ul class="social-media">
-            <li>
-              <a href="https://twitter.com/Ritikarawat22"><img src="./images/tw.png" alt="twitter"></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/rawatritika/"
-                ><img src="./images/Linkedin.png" alt="LinkedIn"></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./images/medium.png" alt="Medium"
-              /></a>
-            </li>
-            <li>
-              <a href="https://github.com/ritikarawat220"
-                ><img src="./images/Github.png" alt="Github"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./images/v.png" alt="V"
-              /></a>
-            </li>
+        <div class="menu-items">
+            <a href="#" class="menu-links"><h3> Portfolio </h3></a>
+            <a href="#" class="menu-links"><h3> About </h3></a>
+            <a href="#" class="menu-links"><h3> Contact </h3></a>
+        </div>
+      </nav>
+    </header>
+    <!-- headline section-->
+  <section class="headline sections">
+    <section class="introduction">
+        <h1 class="Ritika">I’m Ritika <br /> Glad to see you!</h1>
+        <p class="description">
+          I’m a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <h2 class="connector">LET'S CONNECT</h2>
+        <ul class="icons-section">
+          <li>
+            <a href="https://twitter.com/Ritikarawat22">
+              <img src="./images/tw.png" alt="twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/rawatritika/">
+              <img src="./images/Linkedin.png" alt="linkedin"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/medium.png" alt="medium"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ritikarawat220">
+              <img src="./images/Github.png" alt="github"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/v.png" alt="v"/>
+            </a>
+          </li>
+        </ul>
+    </section>
+  </section>
+  <!--Cards section  -->
+  <section id="portfolio" class="container-2 sections">
+    <!-- Container 2 section -->
+    <div class="card hide">
+      <img class="img card-one" src="/portfolio/Nature.png" alt="Snapshoot Portfolio image">
+      <div class="section-content">
+          <h2 class="cardheading">
+            Tonic
+          </h2>
+          <ul class="minihead">
+            <li class="logo">CANOPY</li>
+            <li>Back End Dev</li>
+            <li>2015</li>
           </ul>
-        </section>
-
-        <section class="works">
-          <article class="card bg-white">
-            <figure>
-              <img src="./portfolio/tonic.png" alt="Tonic" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Tonic</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="seprator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="seprator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-          <article class="card bg-white">
-            <figure>
-              <img src="./portfolio/multi.png" alt="multi" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Multi-Post Stories</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="seprator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="seprator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-          <article class="card bg-white">
-            <figure>
-              <img src="portfolio/yoga.png" alt="yoga" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Tonic</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="seprator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="seprator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-          <article class="card bg-white">
-            <figure>
-              <img src="portfolio/art.png" alt="yoga" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Multi-Post Stories</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="seprator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="seprator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-        </section>
-        <section class="about bg-white">
-          <h2 class="title">About Myself</h2>
-          <p class="details">
-            Hello I'm a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don't
-            hestiate to contact me.
-          </p>
-          <div class="social-media-bottom">
-            <a class="contact-link" href="#">LET'S CONNECT</a>
-            <ul class="social-media-links">
-              <li>
-                <a href="https://twitter.com/Ritikarawat22"
-                  ><img src="images/tw.png" alt="Twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/rawatritika/"
-                  ><img
-                    src="images/Linkedin.png"
-                    alt="LinkedIn"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="images/medium.png" alt="Medium"
-                /></a>
-              </li>
-              <li>
-                <a href="https://github.com/ritikarawat220"
-                  ><img src="./images/Github.png" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="./images/v.png" alt="V"
-                /></a>
-              </li>
-            </ul>
-            <button class="btn-default" type="button">Get my resume</button>
-          </div>
-          <ul class="skill-list">
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Languages</h3>
-                <button class="btn-chev" type="button">
-                  <img src="./chev-dow.svg" alt="" />
-                </button>
-              </div>
-              <!-- <div class="separator-line"></div> -->
-              <ul class="language-list">
-                <li>
-                  <img src="./javascript.svg" alt="JavaScript" />
-                  JavaScript
-                </li>
-                <li>
-                  <img src="./html.svg" alt="HTML" />
-                  HTML
-                </li>
-                <li>
-                  <img src="./css.svg" alt="CSS" />
-                  CSS
-                </li>
-              </ul>
-            </li>
-
-            <!-- /languages -->
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Frameworks</h3>
-                <button class="btn-chev" type="button">
-                  <img src="./chev-right.svg" alt="" />
-                </button>
-              </div>
-              <div class="separator-line"></div>
-            </li>
-            <!-- /Frameworks -->
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Skills</h3>
-                <button class="btn-chev" type="button">
-                  <img src="./chev-right.svg" alt="" />
-                </button>
-              </div>
-              <div class="separator-line"></div>
-            </li>
-            <!--- /Skills --->
-          </ul>
-        </section><div class="contact-section">
-        <section class="contact-me">
-          <h2>Contact me</h2>
           <p>
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
+            A daily selection of privately personalized reads; no accountsor sign-ups required.
           </p>
-          <form class="contact-form" action="https://formspree.io/f/xeqwogve" method="post">
-            <input type="text" name="name" placeholder="Your Name" maxlength="30" required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-            <textarea
-              name="message"
-              cols="30"
-              rows="6"
-              placeholder="Write your message here"
-              maxlength="500"
-              required
-            ></textarea>
-            <button class="btn-submit" type="submit">Get In Touch</button>
-          </form>
-        </section>
+          <ul class="used-lang">
+              <li>
+                html
+              </li>
+              <li>
+                css
+              </li>
+              <li>
+                javascript
+              </li>
+          </ul>
+          <button data-id="card_two" class="button" type="button">
+            See Project
+          </button>
       </div>
-      </main>
+  </div>
+    <div class="card">
+        <img class="img card-twos" src="./portfolio/profes...png" alt="Snapshoot Portfolio image">
+        <div class="section_content">
+          <h2 class="cardheading">
+            Multi-Post Stories
+          </h2>
+          <ul class="minihead">
+            <li class="logo">
+              FACEBOOK
+            </li>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+            <p>
+              Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+            </p>
+            <ul class="used-lang">
+                <li>
+                  html
+                </li>
+                <li>
+                  css
+                </li>
+                <li>
+                  javascript
+                </li>
+            </ul>
+            <button data-id="cardTwo" class="button" type="button">
+              See Project
+            </button>
+        </div>
     </div>
+    <div class="card">
+        <img class="img card-one" src="./portfolio/Snapshoot Portfolio.png" alt="Snapshoot Portfolio image">
+        <div class="section-content">
+            <h2 class="cardheading">
+              Facebook 360
+            </h2>
+            <ul class="minihead">
+              <li class="logo">CANOPY</li>
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+            <p>
+              A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+            </p>
+            <ul class="used-lang">
+                <li>
+                  html
+                </li>
+                <li>
+                  css
+                </li>
+                <li>
+                  javascript
+                </li>
+            </ul>
+            <button data-id="card_two" class="button" type="button">
+              See Project
+            </button>
+        </div>
+    </div>
+    <div class="card">
+      <img class="img card-twos" src="./portfolio/availa.png" alt="Snapshoot Portfolio image">
+      <div class="section-content">
+        <h2 class="cardheading">
+         Uber Navigation
+        </h2>
+        <ul class="minihead">
+        <li class="logo">
+        Uber
+        </li>
+        <li>Back End Dev</li>
+        <li>2015</li>
+        </ul>
+        <p>
+        A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <ul class="used-lang">
+          <li>
+          html
+          </li>
+          <li>
+           css
+          </li>
+          <li>
+           javascript
+          </li>
+        </ul>
+        <button data-id="cardfour" class="button" type="button">
+        See Project
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- About section -->
+  <section id="about" class="about_section sections">
+      <div class="about_section_top">
+        <h2 class="Ritika">About Myself</h2>
+        <p class="about_section_description">
+                Hello I’m a software developer! I can help you build a product , feature
+                or website Look through some of my work and experience! If you like what
+                you see and have a project you need coded, don’t hestiate to contact me.
+        </p>
+        <h3 class="connectors">LET'S CONNECT</h3>
+        <ul id="social" class="icons_section_about">
+          <li>
+            <a href="https://twitter.com/Ritikarawat22">
+              <img src="./images/tw.png" alt="twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/rawatritika/">
+              <img src="./images/Linkedin.png" alt="linkedin"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/medium.png" alt="medium"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ritikarawat220">
+              <img src="./images/Github.png" alt="github"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/v.png" alt="v"/>
+            </a>
+          </li>
+        </ul>
+        <button class="btn button" type="button">Get my resume</button>
+      </div>
+          <ul class="about_section_lists">
+            <li>
+              <div class="language">
+                Languages
+                <i class="fas fa-chevron-down"></i>
+            </div>
+                <ul class="languages">
+                    <li>
+                      <img src="./images/works_section_images/js.png" alt="js" />
+                      JavaScript
+                    </li>
+                    <li>
+                      <img src="./images/works_section_images/html.png" alt="html" />
+                      <div>HTML</div>
+                    </li>
+                    <li>
+                      <img src="./images/works_section_images/css.png" alt="css" />
+                      <div>CSS</div>
+                    </li>
+                </ul>
+            </li>
+            <li class="language" >
+              Frameworks
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li class="language">
+                Skills
+                <i class="fas fa-chevron-right"></i>
+            </li>
+          </ul>
+      </section>
+<!-- footer -->
+    <footer id="contact" class="contact_me sections">
+      <h2>Contact me</h2>
+      <p class="form_paragraph">If you have an application you are interested in 
+        developing, a feature that you need built or 
+        a project that needs coding. I’d love to help with it 
+      </p>
+      <form id="forms" action="https://formspree.io/f/xeqwogve" method="post">
+        <input type="text" name="name" placeholder="Your Name" maxlength="30" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          name="message"
+          cols="30"
+          rows="6"
+          placeholder="Write your message here"
+          maxlength="500"
+          required
+        ></textarea>
+        <div class="submitbutton">
+          <button class="form_button button btn_last" type="Submit">Get in touch</button>
+        </div>
+      </form>
+      <!-- <hr class="line"> -->
+    </footer>
   </body>
 </html>
