@@ -313,6 +313,7 @@ ul {
   flex-wrap: nowrap;
   min-width: 300px;
   max-width: 500px;
+  gap: 10px;
 }
 
 .contact-form input,
@@ -334,6 +335,8 @@ ul {
 }
 
 .btn-submit {
+  width: 160px;
+  height: 50px;
   padding: 10px;
   font-weight: 500;
   font-size: 17px;
