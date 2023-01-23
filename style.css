@@ -54,6 +54,23 @@ header h3 a {
   text-decoration: none;
   color: #344563;
   margin-left: 24px;
+  animation-name: logo_load;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+
+@keyframes logo_load {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Tonic:hover {
+  transform: scale(1.1);
 }
 
 .menu-icon {
@@ -64,6 +81,15 @@ header h3 a {
 
 .menu-items {
   display: none;
+  animation-name: menu_load;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+
+@keyframes menu_load {
+  0% {
+    transform: translate(200px);
+  }
 }
 
 .introduction {
@@ -483,6 +509,16 @@ form {
     margin: 25px 0 0 100px;
     animation-name: anime;
     animation-duration: 3s;
+  }
+
+  @keyframes anime {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .menu-icon {
@@ -924,4 +960,8 @@ form {
     gap: 4px;
     text-align: center;
   }
+}
+
+.form_paragraph:hover {
+  transform: translateX(200px);
 }
