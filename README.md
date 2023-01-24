@@ -28,8 +28,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://ritikarawat220.github.io/My-Portfolio/
-
+- Live_Demo: (https://ritikarawat220.github.io/My-Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
