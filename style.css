@@ -2,6 +2,12 @@
   --header-font: "Poppins";
 }
 
+/* Accessibility contrast font color change by imran */
+
+.ac-font-color {
+  color: hsl(234, 100%, 53%) !important;
+}
+
 html,
 body {
   margin: 0;
@@ -217,6 +223,8 @@ header h3 a {
   color: #6070ff;
 }
 
+/* changed the font color in minihead li */
+
 .minihead li {
   padding-right: 10px;
   font-family: var(--header-font);
@@ -224,7 +232,7 @@ header h3 a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: hsl(209, 14%, 32%);
 }
 
 .languages li {
@@ -714,6 +722,8 @@ form {
     padding: 0;
   }
 
+  /* Changed font color in used-lang li */
+
   .used-lang li {
     background: #ebebff;
     border-radius: 8px;
@@ -724,7 +734,7 @@ form {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: hsl(234, 100%, 53%);
   }
 
   .minihead li {
@@ -734,7 +744,7 @@ form {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7a869a;
+    color: hsl(209, 14%, 32%);
   }
 
   .languages li {
@@ -912,6 +922,8 @@ form {
     margin-bottom: 36px;
   }
 
+  /* Changed the background color in contact_me class */
+
   .contact_me {
     display: flex;
     flex-direction: column;
@@ -919,7 +931,7 @@ form {
     align-items: center;
     width: 100%;
     padding-top: 210px;
-    background-color: #6070ff;
+    background-color: hsl(234, 100%, 54%);
     color: #fff;
     margin-top: 72px;
     border-top-left-radius: 75px;
