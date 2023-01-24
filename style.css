@@ -83,7 +83,7 @@ header h3 a {
   display: none;
   animation-name: menu_load;
   animation-duration: 8s;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 
 @keyframes menu_load {
