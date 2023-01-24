@@ -624,7 +624,8 @@ form {
     justify-content: flex-start;
     text-align: start;
     letter-spacing: 0.37px;
-    color: #091e42;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 50%;
     margin-top: -100px;
     padding-left: 24px;
