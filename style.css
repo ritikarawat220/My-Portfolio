@@ -108,6 +108,31 @@ header h3 a {
   line-height: 52px;
   color: #172b4d;
   width: 65%;
+  animation-name: main_heading;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+
+@keyframes main_heading {
+  0% {
+    color: blue;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: red;
+  }
+
+  75% {
+    color: green;
+  }
+
+  100% {
+    color: blue;
+  }
 }
 
 .description {
@@ -587,6 +612,31 @@ form {
     width: 50%;
     margin-top: -100px;
     padding-left: 24px;
+    animation-name: main_head;
+    animation-duration: 8s;
+    animation-delay: 1s;
+  }
+
+  @keyframes main_head {
+    0% {
+      color: blue;
+    }
+
+    25% {
+      color: yellow;
+    }
+
+    50% {
+      color: red;
+    }
+
+    75% {
+      color: green;
+    }
+
+    100% {
+      color: blue;
+    }
   }
 
   .connector {
