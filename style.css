@@ -62,7 +62,7 @@ header h3 a {
   animation-name: logo_load;
   animation-duration: 8s;
   animation-delay: 1s;
-  color: rgb(96, 112, 255); 
+  color: rgb(96, 112, 255);
   background-color: rgb(255, 255, 255);
 }
 
@@ -542,13 +542,13 @@ form {
     margin: 25px 0 0 100px;
     animation-name: anime;
     animation-duration: 3s;
-    color: rgb(96, 112, 255); 
+    color: rgb(96, 112, 255);
     background-color: rgb(255, 255, 255);
   }
 
-  .menu-links h3{
+  .menu-links h3 {
     font-size: 17pt;
-    color: rgb(96, 112, 255); 
+    color: rgb(96, 112, 255);
     background-color: rgb(255, 255, 255);
   }
 
@@ -665,7 +665,7 @@ form {
     width: 51.5%;
     display: flex;
     justify-content: flex-start;
-    color: rgb(127, 140, 255); 
+    color: rgb(127, 140, 255);
     background-color: rgb(255, 255, 255);
   }
 
