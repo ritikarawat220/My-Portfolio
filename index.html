@@ -273,21 +273,24 @@
         a project that needs coding. I’d love to help with it 
       </p>
       <form id="forms" action="https://formspree.io/f/xeqwogve" method="post">
-        <input type="text" name="name" placeholder="Your Name" maxlength="30" required />
+        <label for="name">Full Name: </label>
+        <input type="text" name="name" placeholder="Ritika Rawat" maxlength="30" required>
+
+        <label for="email">Email address: </label>
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
-          required
-        />
+          placeholder="ritikarawat220@gmail.com"
+          required>
+
+          <label for="msg">Write your message here: </label>
         <textarea
           name="message"
           cols="30"
           rows="6"
-          placeholder="Write your message here"
+          placeholder="Enter a message"
           maxlength="500"
-          required
-        ></textarea>
+          required></textarea>
         <div class="submitbutton">
           <button class="form_button button btn_last" type="Submit">Get in touch</button>
         </div>
