@@ -1,12 +1,10 @@
 :root {
   --header-font: "Poppins";
 }
-
-/* Accessibility contrast font color change by imran */
-
+/* 
 .ac-font-color {
   color: hsl(234, 100%, 53%) !important;
-}
+} */
 
 html,
 body {
@@ -59,14 +57,14 @@ header h3 a {
   text-align: center;
   text-decoration: none;
   margin-left: 24px;
-  animation-name: logo_load;
+  /* animation-name: logo_load;
   animation-duration: 8s;
   animation-delay: 1s;
   color: rgb(96, 112, 255);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255); */
 }
 
-@keyframes logo_load {
+/* @keyframes logo_load {
   0% {
     transform: rotate(0deg);
   }
@@ -74,7 +72,7 @@ header h3 a {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 .Tonic:hover {
   transform: scale(1.1);
@@ -88,9 +86,6 @@ header h3 a {
 
 .menu-items {
   display: none;
-  animation-name: menu_load;
-  animation-duration: 8s;
-  animation-delay: 1s;
 }
 
 .sections.active {
@@ -231,8 +226,6 @@ header h3 a {
   color: #6070ff;
 }
 
-/* changed the font color in minihead li */
-
 .minihead li {
   padding-right: 10px;
   font-family: var(--header-font);
@@ -240,7 +233,7 @@ header h3 a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: hsl(209, 14%, 32%);
+  color: #344563;
 }
 
 .languages li {
@@ -324,6 +317,17 @@ header h3 a {
 .button:focus {
   background: #0f1ec5;
   color: #fff;
+}
+
+.Ritika {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  width: 65%;
+  padding-left: 24px;
 }
 
 .about_section_description {
@@ -868,6 +872,17 @@ form {
     width: 40%;
     display: flex;
     flex-direction: column;
+  }
+
+  .Ritika {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    width: 50%;
+    padding-left: 24px;
   }
 
   .about_section_description {
