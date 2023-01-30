@@ -1,7 +1,8 @@
 :root {
   --header-font: "Poppins";
 }
-/* 
+
+/*
 .ac-font-color {
   color: hsl(234, 100%, 53%) !important;
 } */
@@ -57,6 +58,7 @@ header h3 a {
   text-align: center;
   text-decoration: none;
   margin-left: 24px;
+
   /* animation-name: logo_load;
   animation-duration: 8s;
   animation-delay: 1s;
@@ -317,17 +319,6 @@ header h3 a {
 .button:focus {
   background: #0f1ec5;
   color: #fff;
-}
-
-.Ritika {
-  font-family: var(--header-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-  width: 65%;
-  padding-left: 24px;
 }
 
 .about_section_description {
@@ -872,17 +863,6 @@ form {
     width: 40%;
     display: flex;
     flex-direction: column;
-  }
-
-  .Ritika {
-    font-family: var(--header-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172b4d;
-    width: 50%;
-    padding-left: 24px;
   }
 
   .about_section_description {
