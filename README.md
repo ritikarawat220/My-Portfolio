@@ -28,7 +28,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://ritikarawat220.github.io/My-Portfolio/
+- [Live_Demo](https://ritikarawat220.github.io/My-Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -40,7 +40,7 @@ you can know me from here...
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ritika rawat**
+👤 **Ritika Rawat**
 
 - GitHub: [ritikarawat220](https://github.com/ritikarawat220)
 - Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
