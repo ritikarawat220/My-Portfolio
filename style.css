@@ -1129,13 +1129,11 @@ form {
     width: 100%;
     height: 100%;
     opacity: 0.9;
-
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   nav a {
-    position: absolute;
     margin-bottom: 40px;
     font-family: "Poppins", sans-serif;
     font-size: 32px;
@@ -1147,7 +1145,6 @@ form {
     color: white;
     text-decoration: none;
     display: flex;
-    align-items: center;
   }
 
   .navbar nav.nav-toggle {
