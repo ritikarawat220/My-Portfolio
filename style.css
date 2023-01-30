@@ -1004,7 +1004,6 @@ form {
   display: none;
 }
 
-
 @media screen and (max-width: 767px) {
   .wrapper {
     display: flex;
@@ -1104,7 +1103,3 @@ form {
   align-items: flex-start;
   background-color: #fff;
 }
-
-
-
-
