@@ -135,7 +135,7 @@ header h3 a {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  width: 65%; 
+  width: 65%;
 }
 
 .content {
@@ -783,6 +783,7 @@ label {
     color: #091e42;
     width: 50%;
     margin-top: -40px;
+    padding-left: 24px;
   }
 
   .content {
@@ -1147,17 +1148,6 @@ label {
     flex-direction: column;
   }
 
-  .Ritika {
-    font-family: var(--header-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172b4d;
-    width: 50%;
-    padding-left: 24px;
-  }
-
   .contenta {
     font-family: var(--header-font);
     font-style: normal;
@@ -1242,7 +1232,7 @@ label {
     border-top-left-radius: 75px;
     background-image: url(./DesKtop-IM/contact\ form\ background\ shapes.svg);
     background-repeat: no-repeat;
-    background-position: top 65% right;
+    background-position: top 50% right;
   }
 
   .contact-me h2 {
