@@ -243,7 +243,15 @@ function pageTransition() {
   }
 }
 // Removes the Popup on click close button and Navigate to see live and see source on click
-
+windowPopup.addEventListener('click', (e) => {
+  const buttonClass = e.target.classList.contains('seeButtons');
+  if (buttonClass) {
+    windowPopup.classList.remove('pop-body');
+    sections.forEach((sect) => {
+      sect.classList.toggle('active');
+    });
+  }
+});
 
 // Loads the popup card on click
 bodyButtons.addEventListener('click', (e) => {
