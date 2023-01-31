@@ -108,7 +108,7 @@ const popup = [
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
     image: {
-      mainImg: 'portfolio/Nature.png',
+      mainImg: 'portfolio/Snapshoot Portfolio.png',
       counter: './portfolio/Counter.png',
       liveIcon: './portfolio/see-live.png',
       sourceIcon: './portfolio/see-source.png',
