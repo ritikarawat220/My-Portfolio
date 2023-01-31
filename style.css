@@ -1081,7 +1081,8 @@ form {
   top: 0;
   width: 100%;
   height: 100%;
-  filter: blur(2px);
+  filter: blur(1px);
+  mix-blend-mode: multiply;
   background-color: #6070ff;
 
   /* background: no-repeat bottom white; */
@@ -1092,14 +1093,14 @@ form {
   position: relative;
 }
 
-.headline .sections.active {
+/* .headline .sections.active {
   background: #6070ff;
   filter: blur(2px);
   z-index: -1;
   position: relative;
   mix-blend-mode: multiply;
   flex-direction: column;
-}
+} */
 
 .exit {
   position: absolute;
@@ -1132,7 +1133,7 @@ form {
 .nav-link {
   padding-right: 210px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 44px;
   font-family: var(--header-font);
   font-style: normal;
