@@ -2,6 +2,10 @@
   --header-font: "Poppins";
 }
 
+.ac-font-color {
+  color: hsl(234, 100%, 53%) !important;
+}
+
 html,
 body {
   margin: 0;
@@ -53,15 +57,14 @@ header h3 a {
   text-align: center;
   text-decoration: none;
   margin-left: 24px;
-
-  /* animation-name: logo_load;
+  animation-name: logo_load;
   animation-duration: 8s;
   animation-delay: 1s;
   color: rgb(96, 112, 255);
-  background-color: rgb(255, 255, 255); */
+  background-color: rgb(255, 255, 255);
 }
 
-/* @keyframes logo_load {
+@keyframes logo_load {
   0% {
     transform: rotate(0deg);
   }
@@ -69,7 +72,7 @@ header h3 a {
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 
 .Tonic:hover {
   transform: scale(1.1);
@@ -83,12 +86,28 @@ header h3 a {
 
 .menu-items {
   display: none;
+  animation-name: menu_load;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+
+@keyframes menu_load {
+  0% {
+    transform: translate(200px);
+  }
 }
 
 .hamburger {
   background: none;
   border: none;
   margin-top: 19px;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .introduction {
@@ -185,13 +204,6 @@ header h3 a {
   gap: 88px;
 }
 
-#portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -223,6 +235,8 @@ header h3 a {
   color: #6070ff;
 }
 
+/* changed the font color in minihead li */
+
 .minihead li {
   padding-right: 10px;
   font-family: var(--header-font);
@@ -230,7 +244,7 @@ header h3 a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: hsl(209, 14%, 32%);
 }
 
 .languages li {
@@ -467,6 +481,14 @@ form {
   color: #fff;
 }
 
+.line {
+  width: 33.33%;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: 32px auto 8px auto;
+}
+
 .submitbutton {
   display: flex;
   flex-direction: row;
@@ -518,10 +540,6 @@ form {
     width: 100%;
   }
 
-  .sections.active {
-    display: none;
-  }
-
   header h3 a {
     font-family: var(--header-font);
     font-style: normal;
@@ -537,15 +555,6 @@ form {
     animation-duration: 3s;
     color: rgb(96, 112, 255);
     background-color: rgb(255, 255, 255);
-  }
-
-  .nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #1a2236;
-    font-family: var(--ff-normal);
-    text-decoration: none;
   }
 
   .menu-links h3 {
@@ -584,10 +593,6 @@ form {
     line-height: 20px;
   }
 
-  .hamburger {
-    display: none;
-  }
-
   .headline {
     height: 100vh;
   }
@@ -618,6 +623,23 @@ form {
     display: flex;
     text-align: start;
     justify-content: flex-start;
+  }
+
+  /* .sections.active {
+    display: none;
+  } */
+
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a2236;
+    font-family: var(--ff-normal);
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .Ritika {
@@ -674,6 +696,40 @@ form {
     justify-content: flex-start;
     color: rgb(127, 140, 255);
     background-color: rgb(255, 255, 255);
+  }
+
+  .wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+  }
+
+  a.logo {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+    color: #6070ff;
+    margin-left: 150px;
+  }
+
+  .wrapper nav {
+    position: fixed;
+    top: -120%;
+    width: 100%;
+    height: 100%;
+    background-color: #6070ff;
+    opacity: 0.9;
   }
 
   .icons-section {
@@ -1038,40 +1094,10 @@ form {
     gap: 4px;
     text-align: center;
   }
+}
 
-  .wrapper {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    flex: 1 1 auto;
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    background-color: #fff;
-    justify-content: space-between;
-    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
-  }
-
-  a.logo {
-    display: flex;
-    flex-direction: row;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 20px;
-    color: #6070ff;
-    margin-left: 150px;
-  }
-
-  .wrapper nav {
-    position: fixed;
-    top: -120%;
-    width: 100%;
-    height: 100%;
-    background-color: #6070ff;
-    opacity: 0.9;
-  }
+.form_paragraph:hover {
+  transform: translateX(200px);
 }
 
 /* DOM */
@@ -1081,11 +1107,9 @@ form {
   top: 0;
   width: 100%;
   height: 100%;
-  filter: blur(1px);
+  backdrop-filter: blur(15px);
   mix-blend-mode: multiply;
   background-color: #6070ff;
-
-  /* background: no-repeat bottom white; */
   background-size: contain;
 }
 
@@ -1093,23 +1117,12 @@ form {
   position: relative;
 }
 
-/* .headline .sections.active {
-  background: #6070ff;
-  filter: blur(2px);
-  z-index: -1;
-  position: relative;
-  mix-blend-mode: multiply;
-  flex-direction: column;
-} */
-
 .exit {
   position: absolute;
   bottom: 25%;
   right: 7%;
   top: 20%;
   border: 2px solid #6070ff;
-
-  /* background-color: white; */
   color: #fff;
   font-size: 20px;
   cursor: pointer;
