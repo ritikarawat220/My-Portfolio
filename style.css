@@ -1082,7 +1082,8 @@ form {
   width: 100%;
   height: 100%;
   filter: blur(2px);
-  background-color: #6070FF;
+  background-color: #6070ff;
+
   /* background: no-repeat bottom white; */
   background-size: contain;
 }
@@ -1091,9 +1092,8 @@ form {
   position: relative;
 }
 
-.headline
-.sections.active {
-  background: #6070FF;
+.headline .sections.active {
+  background: #6070ff;
   filter: blur(2px);
   z-index: -1;
   position: relative;
@@ -1106,9 +1106,10 @@ form {
   bottom: 25%;
   right: 7%;
   top: 20%;
-  border: 2px solid #67798E;
+  border: 2px solid #67798e;
+
   /* background-color: white; */
-  color: #FFFFFF;
+  color: #fff;
   font-size: 20px;
   cursor: pointer;
 }
@@ -1133,11 +1134,11 @@ form {
   font-weight: 600;
   font-size: 30px;
   line-height: 44px;
-  font-family: 'Poppins';
+  font-family: var(--header-font);
   font-style: normal;
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
   gap: 50px;
 }
