@@ -20,11 +20,13 @@
 **[Protofilio]** everything you want to know about me!
 
 
-## 🛠 Built With <a name="built-with"></a>
-### Key Features <a name="key-features"></a>
-- **used linters**
-- **mobile version**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript 
+- Linter
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -73,7 +75,8 @@ If you like this project give me star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for giving me this oppurtunity
+- You can do it
+- You need patience and smart friend who can help you.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

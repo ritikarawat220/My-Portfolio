@@ -1121,7 +1121,7 @@ form {
 .nav-link {
   font-weight: 400;
   font-size: 20px;
-  font-family: var(--ff-normal);
+  font-family: var(--header-font);
   text-decoration: none;
   color: #000;
   align-self: center;
