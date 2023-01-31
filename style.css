@@ -2,8 +2,6 @@
   --header-font: "Poppins";
 }
 
-/* Accessibility contrast font color change by imran */
-
 .ac-font-color {
   color: hsl(234, 100%, 53%) !important;
 }
@@ -97,6 +95,19 @@ header h3 a {
   0% {
     transform: translate(200px);
   }
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  margin-top: 19px;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .introduction {
@@ -614,6 +625,23 @@ form {
     justify-content: flex-start;
   }
 
+  /* .sections.active {
+    display: none;
+  } */
+
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a2236;
+    font-family: var(--ff-normal);
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
   .Ritika {
     font-family: var(--header-font);
     font-style: normal;
@@ -668,6 +696,40 @@ form {
     justify-content: flex-start;
     color: rgb(127, 140, 255);
     background-color: rgb(255, 255, 255);
+  }
+
+  .wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+  }
+
+  a.logo {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+    color: #6070ff;
+    margin-left: 150px;
+  }
+
+  .wrapper nav {
+    position: fixed;
+    top: -120%;
+    width: 100%;
+    height: 100%;
+    background-color: #6070ff;
+    opacity: 0.9;
   }
 
   .icons-section {
@@ -1036,4 +1098,61 @@ form {
 
 .form_paragraph:hover {
   transform: translateX(200px);
+}
+
+/* DOM */
+.mobile-option {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+  mix-blend-mode: multiply;
+  background-color: #6070ff;
+  background-size: contain;
+}
+
+.head-dom {
+  position: relative;
+}
+
+.exit {
+  position: absolute;
+  bottom: 25%;
+  right: 7%;
+  top: 20%;
+  border: 2px solid #6070ff;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+}
+
+.mob-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  row-gap: 20px;
+  padding-top: 20%;
+  margin-bottom: 15%;
+}
+
+/* .mobile-app {
+  display: none;
+} */
+
+.nav-link {
+  padding-right: 210px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: var(--header-font);
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  gap: 50px;
 }
