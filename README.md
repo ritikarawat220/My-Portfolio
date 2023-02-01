@@ -19,14 +19,15 @@
 # 📖 [Protofilio] <a name="about-project"></a>
 **[Protofilio]** everything you want to know about me!
 
-
+# Project Screenshot image
+![Mobile version](./images/works_section_images/mobile-ss.png)
+![Desktop version](./images/works_section_images/desktop-ss.png)
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript 
-- Linter
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -35,8 +36,18 @@
 
 
 
-## 💻 Getting Started <a name="getting-started"></a>
-you can know me from here...
+## Getting Started
+
+- Create a local directory that you want to clone the repository.
+
+- Open the command prompt in the created directory.
+
+- On the terminal run this command git clone https://github.com/ritikarawat220/My-Portfolio.git
+
+- Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
+
+- Install the dev dependencies for linters run npm install.
+
 
 
 
