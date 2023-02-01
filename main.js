@@ -34,10 +34,30 @@ links.forEach((link) => {
   link.addEventListener('click', removeMenu);
 });
 
-// You need to update the main page so that the projects section
-// is created dynamically using the information stored in that
-// JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-// order class is to switch them , move image to the right
+// Email vaidation form
+const emailE = document.querySelector('#email');
+const form = document.querySelector('#forme');
+const error = document.querySelector('#error');
+
+function validator(emailAcquire) {
+  if (emailAcquire.match(/^[a-z@.0-9-_]*$/)) {
+    return true;
+  }
+  return false;
+}
+
+// Message validation
+form.addEventListener('submit', (e) => {
+  if (validator(emailE.value)) {
+    error.textContent = '';
+  } else {
+    e.preventDefault();
+    emailE.style.border = '4px solid red';
+    error.style.display = 'flex';
+    error.textContent = 'Error! Please Use Lowercase Email.';
+  }
+});
+
 const cards = [
   {
     id: 'cardOne',

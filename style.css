@@ -1321,4 +1321,11 @@ label {
     gap: 4px;
     text-align: center;
   }
+
+  #error {
+    color: red;
+    width: fit-content;
+    font-family: var(--header-font);
+    font-size: 20px;
+  }
 }
