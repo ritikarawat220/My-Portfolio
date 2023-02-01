@@ -44,7 +44,7 @@
 
 - On the terminal run this command git clone https://github.com/ritikarawat220/My-Portfolio.git
 
-- Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
+- Go to the repository folder using command prompt cd.
 
 - Install the dev dependencies for linters run npm install.
 
