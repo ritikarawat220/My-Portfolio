@@ -34,10 +34,6 @@ links.forEach((link) => {
   link.addEventListener('click', removeMenu);
 });
 
-// You need to update the main page so that the projects section
-// is created dynamically using the information stored in that
-// JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-// order class is to switch them , move image to the right
 const cards = [
   {
     id: 'cardOne',
@@ -94,10 +90,6 @@ const cards = [
   },
 ];
 
-// For each project you need to store the following pieces of data in a
-// JavaScript object, at a minimum: name, description, featured image,
-// technologies, link to live version, link to source
-// All popup Cards
 const popup = [
   {
     id: 'cardOne',
