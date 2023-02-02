@@ -58,6 +58,21 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+const contactForm = document.querySelector('#forme');
+const userData = {
+  name: '',
+  email: '',
+  message: '',
+};
+
+contactForm.addEventListener('change', () => {
+  userData.name = document.querySelector('#name').value;
+  userData.email = document.querySelector('#email').value;
+  userData.message = document.querySelector('#message').value;
+
+  localStorage.setItem('object', JSON.stringify(userData));
+});
+
 const cards = [
   {
     id: 'cardOne',
