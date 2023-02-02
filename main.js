@@ -73,6 +73,13 @@ contactForm.addEventListener('change', () => {
   localStorage.setItem('object', JSON.stringify(userData));
 });
 
+const dataOB = JSON.parse(localStorage.getItem('object'));
+if (dataOB) {
+  document.querySelector('#name').value = dataOB.name;
+  document.querySelector('#email').value = dataOB.email;
+  document.querySelector('#message').value = dataOB.message;
+}
+
 const cards = [
   {
     id: 'cardOne',
