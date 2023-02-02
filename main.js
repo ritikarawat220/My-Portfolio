@@ -73,8 +73,6 @@ contactForm.addEventListener('change', () => {
   localStorage.setItem('object', JSON.stringify(userData));
 });
 
-
-
 const cards = [
   {
     id: 'cardOne',
