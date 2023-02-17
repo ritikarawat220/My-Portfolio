@@ -41,12 +41,12 @@ links.forEach((link) => {
 const cards = [
   {
     id: 'cardOne',
-    title: 'Tonic',
-    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html5', 'css', 'javascript'],
+    title: 'Conference Page',
+    education: ['COLLISION', '&nbsp; Front End Dev', '&nbsp; 2023'],
+    description: 'This is an educational project to make a website for a web conference event with home page and about page.',
+    technologies: ['html5', 'css', 'javascript', 'Figma'],
     image: {
-      mainImg: 'portfolio/Nature.png',
+      mainImg: './my-work/conference.png',
       counter: './portfolio/Counter.png',
     },
     button: 'See Project',
@@ -101,14 +101,14 @@ const cards = [
 const popup = [
   {
     id: 'cardOne',
-    title: 'Tonic',
-    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'Microverse Module 02 Project: This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
+    title: 'Conference Page',
+    education: ['COLLISION', '&nbsp; Front End Dev', '&nbsp; 2023'],
+    description: 'Microverse First Capstone Project: This is an educational project to make a website for a web conference event with home page and about page.',
 
-    technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstraps'],
+    technologies: ['html', 'css', 'javascript', 'Figma'],
+    technologies2: ['github', 'VS Code', 'Bootstraps'],
     image: {
-      mainImg: 'portfolio/Snapshoot Portfolio.png',
+      mainImg: './my-work/conference.png',
       counter: './portfolio/Counter.png',
       liveIcon: './portfolio/see-live.png',
       sourceIcon: './portfolio/see-source.png',
@@ -117,8 +117,8 @@ const popup = [
     butn2: 'See Source',
     cancel: '&times;', // x image
     navigation: {
-      live: 'https://github.com/ritikarawat220/My-Portfolio//',
-      source: 'https://github.com/ritikarawat220/My-Portfolio.git/',
+      live: 'https://ritikarawat220.github.io/Capstone-project---Conference-page/',
+      source: 'https://github.com/ritikarawat220/Capstone-project---Conference-page',
     },
   },
 
