@@ -169,7 +169,7 @@ const popup = [
     title: 'To-Do List',
     education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: '📝 This is a simple to do list app that lets you add your daily tasks into a list. You can add or remove or modify your task, and you can mark the tasks as complete and delete completed tasks.',
-    
+
     technologies: ['html', 'css', 'javascript', 'Webpack'],
     technologies2: ['github', 'VS Code', 'Bootstraps'],
     image: {
