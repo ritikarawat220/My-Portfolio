@@ -102,7 +102,7 @@ const cards = [
     technologies: ['html', 'css', 'javascript', 'Webpack'],
     image: {
       mainImg: './Screenshots/Screenshot (37).png',
-      counter: './Portfolio/Counter.png',
+      counter: './portfolio/Counter.png',
     },
     button: 'See Project',
     orderClas: 'card-twos',
