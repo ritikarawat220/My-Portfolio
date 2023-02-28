@@ -96,12 +96,12 @@ const cards = [
 
   {
     id: 'cardTwo',
-    title: 'Multi-Post Stories',
+    title: 'To-Do List',
     education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    technologies: ['html', 'css', 'javascript'],
+    description: '📝 This is a simple to do list app that lets you add your daily tasks into a list. You can add or remove or modify your task, and you can mark the tasks as complete and delete completed tasks.',
+    technologies: ['html', 'css', 'javascript', 'Webpack'],
     image: {
-      mainImg: 'portfolio/profes...png',
+      mainImg: './Screenshots/Screenshot (37).png',
       counter: './Portfolio/Counter.png',
     },
     button: 'See Project',
@@ -110,12 +110,12 @@ const cards = [
 
   {
     id: 'cardThree',
-    title: 'Facebook 360',
+    title: 'Awesome Book',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['html', 'css', 'javascript'],
+    description: '📚 A book list project. The user can add books by providing a book title and an author, and delete a certain book from the list by clicking the remove button. Clicking the "List" link will show all the books.',
+    technologies: ['html', 'css', 'javascript', 'Webpack'],
     image: {
-      mainImg: 'portfolio/Snapshoot Portfolio.png',
+      mainImg: './Screenshots/ss-book.png',
       counter: './portfolio/Counter.png',
     },
     button: 'See Project',
@@ -166,14 +166,14 @@ const popup = [
 
   {
     id: 'cardTwo',
-    title: 'Multi-Post Stories',
+    title: 'To-Do List',
     education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-
-    technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstraps'],
+    description: '📝 This is a simple to do list app that lets you add your daily tasks into a list. You can add or remove or modify your task, and you can mark the tasks as complete and delete completed tasks.',
+    
+    technologies: ['html', 'css', 'javascript', 'Webpack'],
+    technologies2: ['github', 'VS Code', 'Bootstraps'],
     image: {
-      mainImg: 'portfolio/profes...png',
+      mainImg: 'Screenshots/ss-todo-list.png',
       counter: './portfolio/Counter.png',
       liveIcon: './portfolio/see-live.png',
       sourceIcon: './portfolio/see-source.png',
@@ -182,21 +182,21 @@ const popup = [
     butn2: 'See Source',
     cancel: '&times;', // x image
     navigation: {
-      live: 'https://github.com/ritikarawat220/My-Portfolio//',
-      source: 'https://github.com/ritikarawat220/My-Portfolio.git/',
+      live: 'https://ritikarawat220.github.io/To-Do-list/',
+      source: 'https://github.com/ritikarawat220/To-Do-list',
     },
   },
 
   {
     id: 'cardThree',
-    title: 'Facebook 360',
+    title: 'Awesome Book',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "📚 A book list project. The user can add books by providing a book title and an author, and delete a certain book from the list by clicking the remove button. Clicking the 'List' link will show all the books.",
 
     technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstraps'],
+    technologies2: ['github', 'VS Code', 'Bootstraps'],
     image: {
-      mainImg: 'portfolio/Snapshoot Portfolio.png',
+      mainImg: 'Screenshots/ss-book.png',
       counter: './portfolio/Counter.png',
       liveIcon: './portfolio/see-live.png',
       sourceIcon: './portfolio/see-source.png',
@@ -205,8 +205,8 @@ const popup = [
     butn2: 'See Source',
     cancel: '&times;',
     navigation: {
-      live: 'https://github.com/ritikarawat220/My-Portfolio//',
-      source: 'https://github.com/ritikarawat220/My-Portfolio.git/',
+      live: 'https://ritikarawat220.github.io/Awesome-books-ES6/',
+      source: 'https://github.com/ritikarawat220/Awesome-books-ES6',
     },
   },
 
