@@ -167,7 +167,7 @@ const popup = [
   {
     id: 'cardTwo',
     title: 'To-Do List',
-    education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    education: ['TO-DO LIST', '&nbsp; Back End Dev', '&nbsp; 2023'],
     description: '📝 This is a simple to do list app that lets you add your daily tasks into a list. You can add or remove or modify your task, and you can mark the tasks as complete and delete completed tasks.',
 
     technologies: ['html', 'css', 'javascript', 'Webpack'],
@@ -190,7 +190,7 @@ const popup = [
   {
     id: 'cardThree',
     title: 'Awesome Book',
-    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    education: ['AWESOME BOOKS', '&nbsp; Back End Dev', '&nbsp; 2023'],
     description: "📚 A book list project. The user can add books by providing a book title and an author, and delete a certain book from the list by clicking the remove button. Clicking the 'List' link will show all the books.",
 
     technologies: ['html', 'css', 'javascript'],
