@@ -110,12 +110,12 @@ const cards = [
 
   {
     id: 'cardThree',
-    title: 'Awesome Book',
-    education: ['AWESOME BOOKS', '&nbsp; Back End Dev', '&nbsp; 2023'],
-    description: '📚 A book list project. The user can add books by providing a book title and an author, and delete a certain book from the list by clicking the remove button. Clicking the "List" link will show all the books.',
-    technologies: ['html', 'css', 'javascript', 'Webpack'],
+    title: 'MealDB',
+    education: ['MealDB', '&nbsp; Back End Dev', '&nbsp; 2023'],
+    description: "🍜 The MealDB is a web application that has a list of foods. The web application was built based on two APi's, which are the Meals DB and the Involvement API. The web app makes APi call to render a list of meals and also make another API call when a user likes or comment.",
+    technologies: ['html', 'css', 'javascript'],
     image: {
-      mainImg: './Screenshots/ss-book.png',
+      mainImg: './Screenshots/meal ss.png',
       counter: './portfolio/Counter.png',
     },
     button: 'See Project',
@@ -123,12 +123,12 @@ const cards = [
 
   {
     id: 'cardFour',
-    title: 'Uber Navigation',
-    education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html', 'css', 'javascript'],
+    title: 'World Metrics',
+    education: ['World Metrics', '&nbsp; Back End Dev', '&nbsp; 2023'],
+    description: ' 🌏 World Metrics is a single page web application that allows users to check world continents/countries information, e.g: Population, Flags, Currencies, Languages, capital, borders, area, etc.',
+    technologies: ['html', 'css', 'javascript', 'react'],
     image: {
-      mainImg: 'portfolio/availa.png',
+      mainImg: 'Screenshots/world-1.png',
       counter: './portfolio/Counter.png',
     },
     button: 'See Project',
@@ -189,14 +189,14 @@ const popup = [
 
   {
     id: 'cardThree',
-    title: 'Awesome Book',
-    education: ['AWESOME BOOKS', '&nbsp; Back End Dev', '&nbsp; 2023'],
-    description: "📚 A book list project. The user can add books by providing a book title and an author, and delete a certain book from the list by clicking the remove button. Clicking the 'List' link will show all the books.",
+    title: 'MealDB',
+    education: ['MealDB', '&nbsp; Back End Dev', '&nbsp; 2023'],
+    description: "🍜 The MealDB is a web application that has a list of foods. The web application was built based on two APi's, which are the Meals DB and the Involvement API. The web app makes APi call to render a list of meals and also make another API call when a user likes or comment.",
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'VS Code', 'Bootstraps'],
     image: {
-      mainImg: 'Screenshots/ss-book.png',
+      mainImg: 'Screenshots/meal ss.png',
       counter: './portfolio/Counter.png',
       liveIcon: './portfolio/see-live.png',
       sourceIcon: './portfolio/see-source.png',
@@ -205,21 +205,21 @@ const popup = [
     butn2: 'See Source',
     cancel: '&times;',
     navigation: {
-      live: 'https://ritikarawat220.github.io/Awesome-books-ES6/',
-      source: 'https://github.com/ritikarawat220/Awesome-books-ES6',
+      live: 'https://ritikarawat220.github.io/JavaScriptCapstone/dist/',
+      source: 'https://github.com/ritikarawat220/JavaScriptCapstone',
     },
   },
 
   {
     id: 'cardFour',
-    title: 'Uber Navigation',
-    education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    title: 'World Metrics',
+    education: ['World Metrics', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    description: ' 🌏 World Metrics is a single page web application that allows users to check world continents/countries information, e.g: Population, Flags, Currencies, Languages, capital, borders, area, etc.',
 
-    technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstraps'],
+    technologies: ['html', 'css', 'javascript', 'react'],
+    technologies2: ['github', 'Api', 'Bootstraps'],
     image: {
-      mainImg: 'portfolio/availa.png',
+      mainImg: 'Screenshots/world2.png',
       counter: './portfolio/Counter.png',
       liveIcon: './portfolio/see-live.png',
       sourceIcon: './portfolio/see-source.png',
@@ -228,8 +228,8 @@ const popup = [
     butn2: 'See Source',
     cancel: '&times;', // x image
     navigation: {
-      live: 'https://github.com/ritikarawat220/My-Portfolio//',
-      source: 'https://github.com/ritikarawat220/My-Portfolio.git/',
+      live: 'https://metrics-webapp-xo2x.onrender.com/',
+      source: 'https://github.com/ritikarawat220/ReactCapstone-project---Metrics-webapp',
     },
   },
 ];
